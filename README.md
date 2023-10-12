@@ -15,7 +15,7 @@ EEPROM İşlemleri:
   void clear_all_eeprom(): EEPROM'u tamamen temizler.
 
 
-Bit Dizisi (Bit Array) İşlemleri
+Bit Dizisi (Bit Array) İşlemleri:
 
   void bitArray_uint32_to_uint8(uint32_t value, uint8_t *array, uint8_t index): 32 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
   
@@ -26,7 +26,7 @@ Bit Dizisi (Bit Array) İşlemleri
   void writeCRC_MSB(uint16_t value, uint8_t *array, uint8_t index): 16 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
 
 
-Bit Dizisi Okuma İşlemleri
+Bit Dizisi Okuma İşlemleri:
 
   uint32_t bitArray_uint8_to_uint32(uint8_t *array, uint8_t index): 8 bitlik bir bit dizisini 32 bitlik bir tamsayıya dönüştürür.
 
@@ -35,21 +35,21 @@ Bit Dizisi Okuma İşlemleri
   float bitArray_uint8_to_float(uint8_t *array, uint8_t index): 8 bitlik bir bit dizisini float türündeki bir sayıya dönüştürür.
 
 
-İlk Ayar İşlemleri
+İlk Ayar İşlemleri:
 
   uint32_t init_Read_Fill(): EEPROM'dan verileri okuyarak başlangıç ayarlarını yapar.
   
   uint32_t write_Flash(): Ayarları Flash belleğe yazar.
 
 
-Tek Değişken Okuma İşlemleri
+Tek Değişken Okuma İşlemleri:
 
   uint32_t singleRead_uint(uint8_t a, uint8_t b, uint32_t *sonuc): Belirli bir uint32 değişkenini okur.
   
   uint32_t singleRead_float(uint8_t a, uint8_t b, float *sonuc): Belirli bir float değişkenini okur.
 
 
-Tek Değişken Yazma İşlemleri
+Tek Değişken Yazma İşlemleri:
 
   void clearByte(uint16_t a, uint16_t b): Belirtilen baytları temizler.
   
