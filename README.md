@@ -6,18 +6,18 @@ Fonksiyonlar
 
 EEPROM İşlemleri:
 
-void eeprom_Write (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'a veri yazma işlemini gerçekleştirir.
-void eeprom_Read (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'dan veri okuma işlemini gerçekleştirir.
-void eeprom_Erase (uint16_t page): Belirtilen sayfayı silme işlemini gerçekleştirir.
-void clear_all_eeprom(): EEPROM'u tamamen temizler.
+  void eeprom_Write (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'a veri yazma işlemini gerçekleştirir.
+  void eeprom_Read (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'dan veri okuma işlemini gerçekleştirir.
+  void eeprom_Erase (uint16_t page): Belirtilen sayfayı silme işlemini gerçekleştirir.
+  void clear_all_eeprom(): EEPROM'u tamamen temizler.
 
 
 Bit Dizisi (Bit Array) İşlemleri
 
-void bitArray_uint32_to_uint8(uint32_t value, uint8_t *array, uint8_t index): 32 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
-void bitArray_uint16_to_uint8(uint16_t value, uint8_t *array, uint8_t index): 16 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
-void bitArray_float_to_uint8(float value, uint8_t *array, uint8_t index): float türündeki bir sayıyı 8 bitlik bir bit dizisine dönüştürür.
-void writeCRC_MSB(uint16_t value, uint8_t *array, uint8_t index): 16 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
+  void bitArray_uint32_to_uint8(uint32_t value, uint8_t *array, uint8_t index): 32 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
+  void bitArray_uint16_to_uint8(uint16_t value, uint8_t *array, uint8_t index): 16 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
+  void bitArray_float_to_uint8(float value, uint8_t *array, uint8_t index): float türündeki bir sayıyı 8 bitlik bir bit dizisine dönüştürür.
+  void writeCRC_MSB(uint16_t value, uint8_t *array, uint8_t index): 16 bitlik bir tamsayıyı 8 bitlik bir bit dizisine dönüştürür.
 
 
 Bit Dizisi Okuma İşlemleri
