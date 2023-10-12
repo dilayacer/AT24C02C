@@ -7,8 +7,11 @@ Fonksiyonlar
 EEPROM İşlemleri:
 
   void eeprom_Write (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'a veri yazma işlemini gerçekleştirir.
+  
   void eeprom_Read (uint16_t page, uint16_t offset, uint8_t *data, uint16_t size): EEPROM'dan veri okuma işlemini gerçekleştirir.
+  
   void eeprom_Erase (uint16_t page): Belirtilen sayfayı silme işlemini gerçekleştirir.
+  
   void clear_all_eeprom(): EEPROM'u tamamen temizler.
 
 
