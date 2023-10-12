@@ -1,4 +1,4 @@
-# AT24C02C
+# AT24C02C  Programlanabilir bellek için kullanılabilir kütüphane
 
 Bu header dosyası, EEPROM (Elektrikle Silinebilir Programlanabilir Salt Okunur Bellek) işlemlerini gerçekleştirmek için kullanılan bir kütüphaneyi tanımlar. STM32G4 serisi mikrodenetleyicilerle uyumludur ve çeşitli EEPROM işlevlerini sağlar. Ayrıca, bit dizisi (bit array) üzerinde çalışan yardımcı işlevler içerir.
 
